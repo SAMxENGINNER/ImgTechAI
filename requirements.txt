@@ -1,0 +1,5 @@
+streamlit
+opencv-pytho
+scikit-image
+numpy
+pillow
