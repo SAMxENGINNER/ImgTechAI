@@ -10,7 +10,7 @@ st.markdown('<p style="font-size:128px;">ImgTechAI</p>', unsafe_allow_html=True)
 
 st.markdown("Transform your images with various AI and computer vision techniques!")
 
-# Upload Image
+# Image
 uploaded_file = st.file_uploader("📤 Upload an Image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file:
@@ -94,7 +94,7 @@ if uploaded_file:
 
     st.sidebar.markdown("---")
 
-    # 🎨 Color & Pixel Transformations
+    #Color & Pixel Transformations
     st.sidebar.subheader("🎨 Color & Pixel Transformations")
     
     apply_grayscale = st.sidebar.checkbox("Grayscale")
@@ -121,7 +121,7 @@ if uploaded_file:
 
     st.sidebar.markdown("---")
 
-    # 🧪 Noise Injection
+    # Noise Injection
     st.sidebar.subheader("🧪 Noise Injection")
     
     add_gaussian_noise = st.sidebar.checkbox("Add Gaussian Noise")
@@ -139,7 +139,7 @@ if uploaded_file:
 
     st.sidebar.markdown("---")
 
-    # 🌈 Histogram & Contrast
+    #Histogram & Contrast
     st.sidebar.subheader("🌈 Histogram & Contrast")
     
     apply_hist_eq = st.sidebar.checkbox("Histogram Equalization")
@@ -159,7 +159,7 @@ if uploaded_file:
 
     st.sidebar.markdown("---")
 
-    # 🔄 Geometric Transformations
+    #Geometric Transformations
     st.sidebar.subheader("🔄 Geometric Transformations")
     
     apply_rotation = st.sidebar.checkbox("Rotation")
@@ -177,7 +177,7 @@ if uploaded_file:
     st.sidebar.markdown("---")
 
 
-    # 📦 Augmentations
+    #Augmentation
     st.sidebar.subheader("📦 Augmentations")
     
     apply_cutout = st.sidebar.checkbox("Cutout (Random Erasing)")
@@ -191,7 +191,7 @@ if uploaded_file:
 
     st.sidebar.markdown("---")
 
-    # === Apply Transformations ===
+    # === Apply Transformations
     
     # Color & Pixel Transformations
     if apply_grayscale:
@@ -594,9 +594,6 @@ else:
 
 
         """)
-
-
-# Add footer
 st.markdown("---")
 st.markdown(
     """
