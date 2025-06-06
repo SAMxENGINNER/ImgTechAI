@@ -101,6 +101,11 @@ ImgTechAI/
 - Save the processed image as a PNG file
 - Use the transformed image in your projects
 
+## 🚀 Live Demo
+
+> 🔗 **App is live at:**  
+> [🌐 imgtechai.streamlit.app](https://imgtechai.streamlit.app/)
+
 ## 🔧 Technical Details
 
 ### Supported Image Formats
@@ -205,7 +210,7 @@ ImgTechAI works best with modern web browsers:
 
 **Image won't upload**
 - Check file format (must be JPG, JPEG, or PNG)
-- Ensure file size is reasonable (< 50MB recommended)
+- Ensure file size is reasonable (< 5MB recommended)
 
 **Slow processing**
 - Large images take more time to process
@@ -231,4 +236,4 @@ This project is open source and available under the MIT License.
 ---
 
 **Ready to transform your images? Upload one now and start exploring! 🚀**
-```
+
