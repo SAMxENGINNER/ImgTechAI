@@ -50,7 +50,7 @@ if uploaded_file:
         watershed_threshold = st.sidebar.slider("Distance Transform Threshold", 0.1, 1.0, 0.7, 0.1)
     st.sidebar.markdown("---")
 
-    # 🌀 Fourier Transform & Frequency Analysis
+    #Fourier Tf & Frequency Analysis
     st.sidebar.subheader("🌀 Fourier Transform")
     
     apply_fourier = st.sidebar.checkbox("Apply Fourier Transform")
