@@ -62,27 +62,6 @@ ImgTechAI is a comprehensive image transformation tool that brings advanced comp
 - Python 3.7 or higher
 - pip package manager
 
-### Installation
-
-1. **Clone or download the project**
-   ```bash
-   git clone <repository-url>
-   cd ImgTechAI
-   ```
-
-2. **Install required dependencies**
-   ```bash
-   pip install streamlit opencv-python numpy scikit-image pillow
-   ```
-
-3. **Run the application**
-   ```bash
-   streamlit run app.py
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:8501`
-
 ## 📁 Project Structure
 
 ```
